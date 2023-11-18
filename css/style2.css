@@ -1,0 +1,68 @@
+
+
+div{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+#width {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: aqua;
+   /* padding: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px; 
+    padding: 100px 50px; */
+    padding: 100px 50px 10px;
+
+    margin: 100px;
+    border: 10px solid indianred;
+
+    box-sizing: border-box;
+    overflow: scroll;
+}
+#image {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReWLnqOWpZV_b1371rvktX-8w6WLA_0Woc2QI9zlDg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+
+#font {
+    color: blue;
+    color: #000000;
+    color: #ffffff;
+    color: rgb(red, green, blue);
+    color: rgba(0, 0, 0, 0.5);
+    
+    font-size: 32px;
+    font-size: 2rem;
+    
+    font-weight: 800;
+    font-weight: bolder;
+   
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+
+body{
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+#align {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+
+
